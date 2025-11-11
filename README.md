@@ -1,20 +1,45 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🎮 Minimax Tic-Tac-Toe AI
 
-# Run and deploy your AI Studio app
+A modern, responsive Tic-Tac-Toe game powered by **React**, **TypeScript**, and **TailwindCSS** — featuring an intelligent AI opponent built with the **Minimax algorithm and heuristics** (using alpha–beta pruning).
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/drive/1Ho5bEB3KAKz8Sh-jGIjfkt5ldcfXxWEY
+## 🚀 Features
+- 🎯 **Three Difficulty Levels** — Easy, Medium, Hard  
+- 🧠 **Minimax AI with Alpha–Beta Pruning**  
+- 💡 **Heuristic-based Medium Mode** — adds randomness and reduced search depth  
+- 👥 **Multiple Game Modes**
+  - Player vs AI
+  - Player vs Player
+  - AI vs AI
+- 📊 Dynamic Scoreboard
+- ⚡ Smooth animations and fully responsive interface
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 🧩 1. Run Locally (Development Mode)
 
+Make sure you have **Node.js (v20 or later)** and **npm** installed.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```bash
+# Clone the repo
+git clone https://github.com/JadaHend25/Minimax-Tic-Tac-Toe-Game.git
+
+# Enter the folder
+cd Minimax-Tic-Tac-Toe-Game
+
+# Install dependencies
+npm install
+
+# Run the dev server
+npm run dev
+
+#http://localhost:5173
+
+#Game can be played within two players on the same network (temporarily
+npx vite --host
+http://192.168.1.xx:5173
+
+#Hosted Live within Vercel 
+https://minimax-tic-tac-toe-game.vercel.app
+
